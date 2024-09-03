@@ -1,9 +1,15 @@
-# Vite-React-projects
+# Vite-React Projects
 
-## Project  1 (Student-Datasheet)
+This repository showcases several Vite-based React projects. Each project is deployed on Vercel, and you can check out the live demos using the links provided below.
 
-Check out the live demo: [Student Datasheet - Project 1](https://student-datasheet.vercel.app//)
+## Project 1: Student Datasheet
 
-## Project 2 (To-Do App)
+- **Live Demo:** [Student Datasheet - Project 1](https://student-datasheet.vercel.app/)
 
-Check out the live demo: [To-Do App - Project 2](https://todoappinreact.vercel.app/)
+## Project 2: To-Do App
+
+- **Live Demo:** [To-Do App - Project 2](https://todoappinreact.vercel.app/)
+
+## Project 3: Dynamic Status Cards
+
+- **Live Demo:** [Dynamic Status Cards - Project 3](https://dynamic-status-cards.vercel.app/)

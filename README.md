@@ -13,3 +13,11 @@ This repository showcases several Vite-based React projects. Each project is dep
 ## Project 3: Dynamic Status Cards
 
 - **Live Demo:** [Dynamic Status Cards - Project 3](https://dynamic-status-cards.vercel.app/)
+
+## Project 4: Weather App
+
+- **Live Demo:** [Weather App - Project 4](https://weather-web-in-react.vercel.app/)
+
+## Project 5: Image Gallery
+
+- **Live Demo:** [Image Gallery - Project 5]

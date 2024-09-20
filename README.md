@@ -20,4 +20,4 @@ This repository showcases several Vite-based React projects. Each project is dep
 
 ## Project 5: Image Gallery
 
-- **Live Demo:** [Image Gallery - Project 5]
+- **Live Demo:** [Image Gallery - Project 5](https://image-gallery-in-web.vercel.app/)

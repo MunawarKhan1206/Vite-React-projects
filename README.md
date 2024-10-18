@@ -16,12 +16,12 @@ This repository showcases several Vite-based React projects. Each project is dep
 
 ## Project 4: Shopping Product Catalog
 
-- **Live Demo:** [Shopping Product Catalog - Project 4](shopping-product-catalog.vercel.app/)
+- **Live Demo:** [Shopping Product Catalog - Project 4](https://shopping-product-catalog.vercel.app/)
 
 ## Project 5: Weather App
 
-- **Live Demo:** [Weather App - Project 4](https://weather-web-in-react.vercel.app/)
+- **Live Demo:** [Weather App - Project 5](https://weather-web-in-react.vercel.app/)
 
 ## Project 6: Image Gallery
 
-- **Live Demo:** [Image Gallery - Project 5](https://image-gallery-in-web.vercel.app/)
+- **Live Demo:** [Image Gallery - Project 6](https://image-gallery-in-web.vercel.app/)

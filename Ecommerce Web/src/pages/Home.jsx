@@ -20,11 +20,32 @@ const Home = () => {
     },
   ];
 
+  const customerReviews = [
+    {
+      id: 1,
+      name: 'John Doe',
+      review: 'The Luxury Sofa has transformed our living room. Great comfort and style!',
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: 'Jane Smith',
+      review: 'Loved the quality of the Wooden Dining Table! It’s perfect for family dinners.',
+      rating: 4,
+    },
+    {
+      id: 3,
+      name: 'Mark Johnson',
+      review: 'The Comfortable Chair is exactly what I needed for my home office. Highly recommend!',
+      rating: 5,
+    },
+  ];
+
   return (
     <>
       {/* Hero Section */}
       <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: 'url("/src/images/home1.jpeg")' }}>
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Semi-transparent overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="absolute top-1/4 right-12 bg-transparent p-4 rounded-md z-1">
           <h2 className="text-xl italic font-semibold text-white">Exciting Deals</h2>
           <h1 className="text-xl font-semibold italic text-yellow-400">Unveil the Latest Trends in Home Décor</h1>
@@ -64,6 +85,24 @@ const Home = () => {
           </button>
         </div>
       </section>
+
+      {/* Customer Reviews Section */}
+      <section className="mt-16 py-12 bg-white">
+        <div className="container mx-auto text-center">
+          <h2 className="text-2xl font-bold">What Our Customers Say</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            {customerReviews.map((review) => (
+              <div key={review.id} className="border rounded-lg p-6 shadow-md">
+                <p className="text-lg italic text-gray-800">&quot;{review.review}&quot;</p>
+                <p className="mt-4 font-bold text-yellow-600">{`${review.rating} Stars`}</p>
+                <p className="mt-2 text-gray-600">- {review.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Inspiration Section */}
       <section className="mt-16 py-12 bg-gray-100">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold">Create Your Dream Spaces</h2>
